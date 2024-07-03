@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+
+.header-left{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 85px;
+}
+
+.logo{
+    margin-right: 40px;
+}
+.vertical{
+    width: 20px;
+    height: 20px;
+    border-left: 1px solid gray;
+    opacity: 0.3;
+    margin-right: -20px;
+}
+
+.bus-tickets{
+    background-color: #d84e55;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.bus-tickets img{
+    width: 30px;
+}
+
+.bus-tickets span{
+    color: white;
+    /* font-weight: bold; */
+}
+
+.train-tickets{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-tickets img{
+    width: 40px;
+}
+
+.header-right{
+    display: flex;
+    gap: 15px;
+}
+
+.help{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user img{
+    width: 30px;
+}
+
+.user span img{
+    width:10px;
+    cursor: pointer;
+}
+
+.arrow{
+    width: 10px;
+}
+
+.help img{
+    height: 30px;
+}
