@@ -1,43 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
     <title>RedBus Clone</title>
 </head>
+
 <body>
-   <div class="main">
-    <div class="header-left">
-        <div class="logo">
-            <img src="	https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp"  alt="">
+    <div class="main">
+        <div class="header-left">
+            <div class="logo">
+                <img src="	https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.webp" alt="">
+            </div>
+
+
+            <div class="vertical"></div>
+            <div class="bus-tickets">
+                <img src="./Assets/download.svg" alt="">
+                <span>Bus Tickets</span>
+            </div>
+
+            <div class="train-tickets">
+                <img src="./Assets/rail.svg" alt="">
+                <span>Train Tickets</span>
+            </div>
         </div>
 
-       
-        <div class="vertical"></div>
-        <div class="bus-tickets">
-            <img src="./Assets/download.svg" alt="">
-            <span>Bus Tickets</span>
+        <div class="header-right">
+            <div class="help">
+                <img src="./Assets/headphones.png" alt="">
+                <span>Help</span>
+            </div>
+
+            <div class="user">
+                <img src="./Assets/user.svg" alt="">
+                <span>Account <img src="./Assets/down-arrow.svg" alt=""></span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="bgimage">
+            <img src="https://s3.rdbuz.com/images/webplatform/india/HomeBannerNew.png" alt="">
+
+            <span>India's No.1 Online Bus Ticket Booking Site</span>
+
+            <div class="search-buses">
+
+                <div class="from from-one">
+
+                    <img src="./Assets/bus.png" alt="">
+                    <div>
+                        <p>From</p>
+                        <input type="text">
+                    </div>
+
+                </div>
+
+                <div class="from from-two">
+                    <img src="./Assets/bus.png" alt="">
+                    <div>
+                        <p>To</p>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="from from-three">
+                    <img src="./Assets/calendar.png" alt="">
+                    <p>Date</p>
+                </div>
+                <div class="btn">
+                    <p>Search Buses</p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="train-tickets">
-            <img src="./Assets/rail.svg" alt="">
-            <span>Train Tickets</span>
-        </div>
-      </div>  
+    </div>
 
-      <div class="header-right">
-        <div class="help">
-            <img src="./Assets/headphones.png" alt="">
-            <span>Help</span>
-        </div>
+    <!-- <div class="carousel">
+        <div class="carousel-one">
+            <span>TRENDING OFFERS</span>
+            <button>View All</button>
+        </div> -->
 
-        <div class="user">
-            <img src="./Assets/user.svg" alt="">
-            <span>Account <img src="./Assets/down-arrow.svg" alt=""></span>
-        </div>
+      
 
-      </div>
-    </div>   
+    <!-- </div> -->
+    <script src="./main.js"></script>
+   
 </body>
+
 </html>
